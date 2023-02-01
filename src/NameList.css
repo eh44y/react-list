@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #333;
+  background: #fff2f4;
+}
+
+#root {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#root .list-area {
+  padding: 30px;
+  background: #ded4e5;
+  font-size: 1.2em;
+}
+
+#root .list-area h1 {
+  margin-bottom: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#root .list-area input {
+  margin-bottom: 30px;
+  padding: 5px 20px;
+  border: none;
+}
+
+#root .list-area input:focus {
+  outline: none !important;
+  border-color: #d6a8e9;
+  -webkit-box-shadow: 0 0 20px #d6a8e9;
+          box-shadow: 0 0 20px #d6a8e9;
+}
+
+#root .list-area button {
+  margin-left: 10px;
+  padding: 5px 20px;
+  background: #fff2f4;
+  border: 1px solid #666;
+  border-radius: 10px;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+#root .list-area button:hover {
+  background: #dde5ff;
+}
+
+#root .list-area ul {
+  min-height: 500px;
+}
+
+#root .list-area ul li {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+/*# sourceMappingURL=NameList.css.map */
